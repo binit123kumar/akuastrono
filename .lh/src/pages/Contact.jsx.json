@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/pages/Contact.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1760019630198,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1760019630198,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport \"../Styles/Contact.css\";\n\nfunction Contact() {\n  return (\n    <div className=\"Contact-box\" style={{ display: \"flex\", justifyContent: \"center\", padding: \"20px\" }}>\n      <iframe\n        src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7369481.266118341!2d85.134929!3d25.592302!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed58702e5ae787%3A0x6c55883d32ec4db4!2sAryabhatta%20Knowledge%20University!5e0!3m2!1sen!2sin!4v1716946990588!5m2!1sen!2sin\"\n        width=\"100%\"\n        height=\"450\"\n        style={{ border: 0 }}\n        allowFullScreen=\"\"\n        loading=\"lazy\"\n        referrerPolicy=\"no-referrer-when-downgrade\"\n        title=\"Location Map\"\n      ></iframe>\n    </div>\n  );\n}\n\nexport default Contact;\n"
+        }
+    ]
+}

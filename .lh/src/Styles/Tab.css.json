@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/Styles/Tab.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1760071725342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760071738637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n }\n \n .tab-buttons button {\n-  padding: 100px 30px;\n+  padding: 10px 30px;\n   height: 60px;\n   font-size: 20px;\n   cursor: pointer;\n   background: none;\n"
+                },
+                {
+                    "date": 1760071754698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n }\n \n .tab-buttons button {\n-  padding: 10px 30px;\n+  padding: 10px 50px;\n   height: 60px;\n   font-size: 20px;\n   cursor: pointer;\n   background: none;\n"
+                },
+                {
+                    "date": 1760071760444,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n }\n \n .tab-buttons button {\n-  padding: 10px 50px;\n+  padding: 10px 60px;\n   height: 60px;\n   font-size: 20px;\n   cursor: pointer;\n   background: none;\n"
+                },
+                {
+                    "date": 1760071765748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n }\n \n .tab-buttons button {\n-  padding: 10px 60px;\n+  padding: 10px 50px;\n   height: 60px;\n   font-size: 20px;\n   cursor: pointer;\n   background: none;\n"
+                },
+                {
+                    "date": 1760071773004,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n }\n \n .tab-buttons button {\n-  padding: 10px 50px;\n+  padding: 10px 48px;\n   height: 60px;\n   font-size: 20px;\n   cursor: pointer;\n   background: none;\n"
+                }
+            ],
+            "date": 1760071725342,
+            "name": "Commit-0",
+            "content": ".tabs-with-dropdowns {\n  width: 100%;\n}\n\n.tab-buttons {\n  display: flex;\n  justify-content: center;\n  flex-wrap: wrap;\n}\n\n.tab-container {\n  position: relative;\n  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;\n}\n\n.tab-buttons button {\n  padding: 100px 30px;\n  height: 60px;\n  font-size: 20px;\n  cursor: pointer;\n  background: none;\n  border: none;\n  border-left: 1px solid #fff;\n  transition: border-bottom 0.3s ease;\n  background-color: #800000;\n  color: #fff;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n\n\n.dropdown-icon {\n  margin-left: 3px;\n}\n\n.tab-dropdown {\n  position: absolute;\n  top: 100%;\n  left: 0;\n  background: #fff;\n  border: 1px solid #ccc;\n  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);\n  z-index: 1000;\n  width: max-content;\n}\n\n.tab-dropdown ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n\n.tab-dropdown li {\n  padding: 10px;\n  cursor: pointer;\n}\n\n.tab-dropdown li:hover {\n  background: #f1f1f1;\n}\n\n.tab-dropdown li a {\n  display: block;\n  text-decoration: none;\n  color: #000;\n}\n\n.tab-content {\n  padding: 20px;\n  padding-top: 0 !important;\n  /* border: 1px solid #ccc; */\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  border-top: none;\n}\n\n.tab-panel {\n  display: none;\n  width: 1225px;\n}\n\n.tab-panel.active {\n  display: block;\n}\n\n/* Media Queries for responsive design */\n@media (max-width: 1226px) {\n  .tab-buttons {\n    flex-direction: column; /* Stack tabs vertically on small screens */\n  }\n\n  .tab-buttons button {\n    width: 100%;\n    text-align: left; /* Align text to the left for better readability */\n  }\n\n  .tab-dropdown {\n    position: absolute; /* Keep dropdown position absolute */\n    top: 100%; /* Ensure it displays below the tab */\n    left: 0;\n    width: 100%; /* Ensure the dropdown takes the full width */\n    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Add box-shadow for visual separation */\n    z-index: 1000; /* Ensure dropdown is above other elements */\n  }\n\n  .tab-dropdown ul {\n    border-top: none; /* Remove the border-top for cleaner look */\n  }\n}\n\n"
+        }
+    ]
+}

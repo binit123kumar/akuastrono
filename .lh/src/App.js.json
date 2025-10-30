@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1760019733826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760019887113,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n import AimAndObjective from \"./pages/AimAndObjective\";\n import Event from \"./pages/Event\";\n import HomeButton from \"./components/HomeButton\";\n import Footer from './components/Footer'\n-//import Aac from \"./pages/Aac\";\n+import Aac from \"./pages/Aac\";\n \n function App() {\n   return (\n     <>\n"
+                },
+                {
+                    "date": 1760064086708,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,8 @@\n import AimAndObjective from \"./pages/AimAndObjective\";\n import Event from \"./pages/Event\";\n import HomeButton from \"./components/HomeButton\";\n import Footer from './components/Footer'\n-import Aac from \"./pages/Aac\";\n \n function App() {\n   return (\n     <>\n@@ -22,9 +21,8 @@\n         <Route path=\"/contact\" element={<Contact />} />\n         <Route path=\"/Faculty\" element={<Faculty/>} />\n         <Route path=\"/AimAndObjective\" element={<AimAndObjective/>} />\n         <Route path=\"/Event\" element={<Event/>} />\n-        <Route path=\"/Aac\" element={<Aac/>} />\n       </Routes>\n       <HomeButton/>\n       <Footer/>\n     </>\n"
+                }
+            ],
+            "date": 1760019733826,
+            "name": "Commit-0",
+            "content": "import \"./App.css\";\nimport About from \"./components/About\";\nimport Contact from \"./pages/Contact\";\nimport Home from \"./components/Home\";\nimport { Route, Routes } from \"react-router-dom\";\nimport HeroSection from './components/HeroSection'\nimport Faculty from \"./pages/Faculty\";\nimport AimAndObjective from \"./pages/AimAndObjective\";\nimport Event from \"./pages/Event\";\nimport HomeButton from \"./components/HomeButton\";\nimport Footer from './components/Footer'\n//import Aac from \"./pages/Aac\";\n\nfunction App() {\n  return (\n    <>\n      <HeroSection/>\n\n      <Routes>\n        <Route path=\"/\" element={<Home />} />\n        <Route path=\"/about\" element={<About />} />\n        <Route path=\"/contact\" element={<Contact />} />\n        <Route path=\"/Faculty\" element={<Faculty/>} />\n        <Route path=\"/AimAndObjective\" element={<AimAndObjective/>} />\n        <Route path=\"/Event\" element={<Event/>} />\n        <Route path=\"/Aac\" element={<Aac/>} />\n      </Routes>\n      <HomeButton/>\n      <Footer/>\n    </>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

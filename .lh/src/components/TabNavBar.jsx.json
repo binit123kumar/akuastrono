@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/TabNavBar.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1760013925766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760013938023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import TabsWithDropdowns from './TabsWithDropdown';\n import '../Styles/Tab.css';\n import Institute from './Institute';\n import Contact from '../pages/Contact';\n-import Msc from '../Assests/Academic program.doc'\n+import Msc from '../Assests/Academic program.docx'\n \n const TabNavBar = () => {\n   const tabs = [\n     {\n"
+                },
+                {
+                    "date": 1760014118941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,11 +17,11 @@\n     },\n     {\n       label: 'Academic Program',\n       dropdownOptions: [\n-        { label: 'Master of Science (MSc) in River Science and Management', link: Msc },\n-        { label: 'Certificate Programme in River Management.', link: '#' },\n-        { label: 'Doctor of Philosophy in River Science', link: '#' }\n+        { label: 'Master of Science (MSc) in Space Science and Technology', link: Msc },\n+       // { label: 'Certificate Programme in River Management.', link: '#' },\n+       // { label: 'Doctor of Philosophy in River Science', link: '#' }\n       ]\n     },\n     {\n       label: 'People',\n"
+                },
+                {
+                    "date": 1760063453384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,16 +29,10 @@\n         { label: 'Faculty And Staff', link: '/Faculty' },\n         { label: 'Academic Advisory Committee', link: '/Aac' },\n       ]\n     },\n+   \n     {\n-      label: 'Annual Report',\n-      dropdownOptions: [\n-        { label: 'Annual Report 2023', link: '#' },\n-        { label: 'Annual Report 2024', link: '#' },\n-      ]\n-    },\n-    {\n       label: 'Activities',\n       dropdownOptions: [\n         { label: 'Events', link: '/Event' },\n       ]\n"
+                },
+                {
+                    "date": 1760077082368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,26 +2,26 @@\n import TabsWithDropdowns from './TabsWithDropdown';\n import '../Styles/Tab.css';\n import Institute from './Institute';\n import Contact from '../pages/Contact';\n-import Msc from '../Assests/Academic program.docx'\n \n const TabNavBar = () => {\n   const tabs = [\n     {\n       label: 'The Institute',\n-      content: <Institute/>,\n+      content: <Institute />,\n       dropdownOptions: [\n         { label: 'About Us', link: '/about' },\n         { label: 'Aim And Objective', link: '/AimAndObjective' }\n       ]\n     },\n     {\n       label: 'Academic Program',\n       dropdownOptions: [\n-        { label: 'Master of Science (MSc) in Space Science and Technology', link: Msc },\n-       // { label: 'Certificate Programme in River Management.', link: '#' },\n-       // { label: 'Doctor of Philosophy in River Science', link: '#' }\n+        { \n+          label: 'Master of Science (MSc) in Space Science and Technology', \n+          link: '/files/Academicprogram.pdf'  // PDF directly from public folder\n+        },\n       ]\n     },\n     {\n       label: 'People',\n@@ -29,9 +29,8 @@\n         { label: 'Faculty And Staff', link: '/Faculty' },\n         { label: 'Academic Advisory Committee', link: '/Aac' },\n       ]\n     },\n-   \n     {\n       label: 'Activities',\n       dropdownOptions: [\n         { label: 'Events', link: '/Event' },\n@@ -50,10 +49,9 @@\n       ]\n     },\n     {\n       label: 'Contact',\n-      content: <Contact/>,\n-      \n+      content: <Contact />,\n     },\n   ];\n \n   return (\n"
+                },
+                {
+                    "date": 1760080161703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,10 +25,9 @@\n     },\n     {\n       label: 'People',\n       dropdownOptions: [\n-        { label: 'Faculty And Staff', link: '/Faculty' },\n-        { label: 'Academic Advisory Committee', link: '/Aac' },\n+        { label: 'Faculty And Staff', link: '/Faculty' }\n       ]\n     },\n     {\n       label: 'Activities',\n"
+                }
+            ],
+            "date": 1760013925766,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport TabsWithDropdowns from './TabsWithDropdown';\nimport '../Styles/Tab.css';\nimport Institute from './Institute';\nimport Contact from '../pages/Contact';\nimport Msc from '../Assests/Academic program.doc'\n\nconst TabNavBar = () => {\n  const tabs = [\n    {\n      label: 'The Institute',\n      content: <Institute/>,\n      dropdownOptions: [\n        { label: 'About Us', link: '/about' },\n        { label: 'Aim And Objective', link: '/AimAndObjective' }\n      ]\n    },\n    {\n      label: 'Academic Program',\n      dropdownOptions: [\n        { label: 'Master of Science (MSc) in River Science and Management', link: Msc },\n        { label: 'Certificate Programme in River Management.', link: '#' },\n        { label: 'Doctor of Philosophy in River Science', link: '#' }\n      ]\n    },\n    {\n      label: 'People',\n      dropdownOptions: [\n        { label: 'Faculty And Staff', link: '/Faculty' },\n        { label: 'Academic Advisory Committee', link: '/Aac' },\n      ]\n    },\n    {\n      label: 'Annual Report',\n      dropdownOptions: [\n        { label: 'Annual Report 2023', link: '#' },\n        { label: 'Annual Report 2024', link: '#' },\n      ]\n    },\n    {\n      label: 'Activities',\n      dropdownOptions: [\n        { label: 'Events', link: '/Event' },\n      ]\n    },\n    {\n      label: 'eResources',\n      dropdownOptions: [\n        { label: 'UGC', link: 'https://www.ugc.gov.in/' },\n        { label: 'NDA', link: 'https://www.nda.gov.in/' },\n        { label: 'SWAYAM', link: 'https://www.swayam.gov.in/' },\n        { label: 'SWAYAM PRABHA', link: 'https://www.swayamprabhay.gov.in/' },\n        { label: 'EGYANKOSH', link: 'https://www.inflibnet.ac.in/' },\n        { label: 'EPATHSHALA', link: 'https://epathshala.nic.in/' },\n        { label: 'ISRO', link: 'https://www.isro.gov.in/' },\n      ]\n    },\n    {\n      label: 'Contact',\n      content: <Contact/>,\n      \n    },\n  ];\n\n  return (\n    <div className=\"TabNavBar\">\n      <TabsWithDropdowns tabs={tabs} />\n    </div>\n  );\n};\n\nexport default TabNavBar;\n"
+        }
+    ]
+}
