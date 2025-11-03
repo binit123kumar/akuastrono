@@ -16,7 +16,7 @@ function Faculty() {
         <h3>Retired – 2009, From Patna University Service as Head of Physics Department</h3>
         <h3>Chairman – 2011, Bihar School Examination Board, Patna</h3>
         <h3> Email - drrpsinha47@gmail.com</h3>
-        <h3> CONTACT NO-7903256476</h3>
+        <h3> CONTACT NO-9334704570</h3>
         
       </div>
       
@@ -25,15 +25,14 @@ function Faculty() {
         <img src={Staff3} alt="Staff" />
         <h3>Lalan Kumar Mandal</h3>
         <h3>Assistant</h3>
-        <h3>School of Astronomy </h3>
         <h3> Email - mandallallan@gmail.com</h3>
-        <h3> CONTACT NO-9334704570</h3>
+        <h3> CONTACT NO-7903256476</h3>
       </div>
       <div className="Faculty-box">
         <img src={Staff2} alt="Staff" />
         <h3>Er. MAHTAB ALAM</h3>
         <h3>CONTACT NO.-9386235343</h3>
-        <h3>School of Astronomy </h3>
+        <h3>Assistant</h3>
       </div>
     </>
   );
