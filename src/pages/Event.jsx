@@ -1,7 +1,8 @@
 import React from "react";
 import "../Styles/Event.css";
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
+// import Lightbox from "react-image-lightbox";   <-- यह हटा दिया गया
+// import "react-image-lightbox/style.css"; <-- यह हटा दिया गया, क्योंकि यह एरर दे रहा था
+
 import Event1 from '../Assests/Event1.jpg'
 import Event2 from '../Assests/Event2.jpg'
 import Event3 from '../Assests/Event3.jpg'
