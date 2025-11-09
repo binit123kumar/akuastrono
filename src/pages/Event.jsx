@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Event.css";
-// import Lightbox from "react-image-lightbox";   <-- यह हटा दिया गया
-// import "react-image-lightbox/style.css"; <-- यह हटा दिया गया, क्योंकि यह एरर दे रहा था
+// आपको Lightbox से संबंधित सभी इम्पोर्ट हटाने थे, अब यह फाइल क्लीन है।
 
 import Event1 from '../Assests/Event1.jpg'
 import Event2 from '../Assests/Event2.jpg'
@@ -44,4 +43,5 @@ function Event() {
   );
 }
 
-export default Event;
+export default Event; 
+// डुप्लीकेट export default Event; को हटा दिया गया है
