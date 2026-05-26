@@ -10,17 +10,17 @@ const Image = "https://akucgs.vercel.app/assets/new.gif";
 const NewsAndAnnouncement = [
   {
     id: 0,
-    NewsName: "Admission 2025",
+    NewsName: "Admission 2026",
     href: "https://adms.akubihar.ac.in/",
   },
   {
     id: 1,
-    NewsName: "PROSPECTUS2025",
+    NewsName: "PROSPECTUS2026",
     href: "/Prospectus.pdf",
   },
   {
     id: 2,
-    NewsName: "Activities Report 2025 SCHOOL OF ASRTRONOMY",
+    NewsName: "Activities Report 2026 SCHOOL OF ASRTRONOMY",
     href: "/Centres Notification.pdf",
   },
   // {
@@ -34,7 +34,7 @@ const NewsAndAnnouncement = [
 const ImportantLinks = [
   {
     id: 0,
-    NewsName: "Admission Procedure 2025",
+    NewsName: "Admission Procedure 2026",
     href: "/Admission.pdf",
   },
   // {
