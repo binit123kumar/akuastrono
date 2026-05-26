@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".history/src/components/TabNavBar_20251010080053.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1760075459623,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1760075459623,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport TabsWithDropdowns from './TabsWithDropdown';\nimport '../Styles/Tab.css';\nimport Institute from './Institute';\nimport Contact from '../pages/Contact';\nimport Msc from '../Assests/Academic program.pdf'\n\nconst TabNavBar = () => {\n  const tabs = [\n    {\n      label: 'The Institute',\n      content: <Institute/>,\n      dropdownOptions: [\n        { label: 'About Us', link: '/about' },\n        { label: 'Aim And Objective', link: '/AimAndObjective' }\n      ]\n    },\n    {\n      label: 'Academic Program',\n      dropdownOptions: [\n        { label: 'Master of Science (MSc) in Space Science and Technology', link: Msc },\n       // { label: 'Certificate Programme in River Management.', link: '#' },\n       // { label: 'Doctor of Philosophy in River Science', link: '#' }\n      ]\n    },\n    {\n      label: 'People',\n      dropdownOptions: [\n        { label: 'Faculty And Staff', link: '/Faculty' },\n        { label: 'Academic Advisory Committee', link: '/Aac' },\n      ]\n    },\n   \n    {\n      label: 'Activities',\n      dropdownOptions: [\n        { label: 'Events', link: '/Event' },\n      ]\n    },\n    {\n      label: 'eResources',\n      dropdownOptions: [\n        { label: 'UGC', link: 'https://www.ugc.gov.in/' },\n        { label: 'NDA', link: 'https://www.nda.gov.in/' },\n        { label: 'SWAYAM', link: 'https://www.swayam.gov.in/' },\n        { label: 'SWAYAM PRABHA', link: 'https://www.swayamprabhay.gov.in/' },\n        { label: 'EGYANKOSH', link: 'https://www.inflibnet.ac.in/' },\n        { label: 'EPATHSHALA', link: 'https://epathshala.nic.in/' },\n        { label: 'ISRO', link: 'https://www.isro.gov.in/' },\n      ]\n    },\n    {\n      label: 'Contact',\n      content: <Contact/>,\n      \n    },\n  ];\n\n  return (\n    <div className=\"TabNavBar\">\n      <TabsWithDropdowns tabs={tabs} />\n    </div>\n  );\n};\n\nexport default TabNavBar;\n"
+        }
+    ]
+}

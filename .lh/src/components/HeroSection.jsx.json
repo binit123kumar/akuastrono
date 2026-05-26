@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/HeroSection.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1760011501541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1760011501541,
+            "name": "Commit-0",
+            "content": "import React from 'react';\nimport '../Styles/HeroSection.css'; // CSS file for the component\n\nconst HeroSection = () => {\n  return (\n    <section className=\"hero flex alignCenter justifyCenter width100\">\n    <div className=\"heroContainer width100 flex alignCenter justifyStart flexColumn\">\n      <div className=\"heroNav width95 maxWidth flex alignCenter spaceBtw\">\n        <div className=\"heroLogo flex alignCenter justifyCenter gap1\">\n          <img src=\"https://akucgs.vercel.app/images/logo.png\" alt='logo'/>\n          <h1>\n            आर्यभट्ट ज्ञान विश्वविद्यालय\n            <br/>\n            Aryabhatta Knowledge University\n          </h1>\n        </div>\n        <div className=\"heroImage\">\n          <img src=\"https://akucgs.vercel.app/images/aajaditwo.png\" alt='hero'/>\n        </div>\n      </div>\n      <div className=\"heading width100 flex alignCenter justifyCenter\">\n        <div className=\"headContainer width95 maxWidth flex alignCenter justifyCenter\">\n          <h1>School of Astronomy</h1>\n        </div>\n      </div>\n    </div>\n  </section>\n  );\n};\n\nexport default HeroSection;\n"
+        }
+    ]
+}

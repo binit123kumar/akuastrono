@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/About.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1760013623910,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1760013649639,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,11 +23,8 @@\n \n Broadening Perspectives:\n Astronomy offers a vast canvas for understanding our universe, our place in it, and the interconnectedness of all things, fostering a broader perspective on life and knowledge. \n \n- \n-\n-// Line 64: ADD THE CLOSING TAG HERE\n     </p> \n     </div> \n   )\n }\n"
+                }
+            ],
+            "date": 1760013623910,
+            "name": "Commit-0",
+            "content": "import React from 'react'\nimport '../Styles/About.css'\n\nfunction About() {\n  return (\n    <div className='About-par'>\n    <h1 className='About-heading'>About</h1>\n    <p className=\"About-detail\">    About ASTRONOMY\n\nThe Centre of the School of Astronomy was approved by the state Government of Bihar through a letter with reference no. 15/P 2-01/2011-740 dated 28.02.2023.\n\nAn astronomy school plays a vital role in education, research, and societal growth. It trains future astronomers, promotes scientific literacy, and advances technology. Additionally, it encourages cultural appreciation and raises awareness of environmental issues. \n\nInspiring Future Scientists and Innovators:\nAstronomy, with its captivating nature, can spark a passion for science and technology among young students, encouraging them to pursue careers in STEM (Space Technology Engineering and Mathematics) fields and contribute to India's space program. \n\nAstronomy education provides hands-on experience with cutting-edge technologies like telescopes, spectroscopes, and astronomical software, boosting students' technological skills and preparing them for future advancements. \n\n\nSupporting India's Space Program:\n\nBy nurturing a strong foundation in astronomy from a young age, India can ensure a steady stream of skilled professionals to drive its future space exploration and technological advancements. \n\nBroadening Perspectives:\nAstronomy offers a vast canvas for understanding our universe, our place in it, and the interconnectedness of all things, fostering a broader perspective on life and knowledge. \n\n \n\n// Line 64: ADD THE CLOSING TAG HERE\n    </p> \n    </div> \n  )\n}\n\nexport default About;"
+        }
+    ]
+}
